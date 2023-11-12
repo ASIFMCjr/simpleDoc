@@ -7,8 +7,8 @@
   /* padding:  3rem 2rem; */
   min-height: 100vh;
   hyphens: auto;
-  width: auto;
-  box-shadow: 2px 2px 5px 3px rgb(189, 189, 189);
+  max-width: 800px;
+  /* box-shadow: 2px 2px 5px 3px rgb(189, 189, 189); */
 }
 
 .description {
@@ -101,7 +101,7 @@
 
 .center::before,
 .center::after {
-  content: '';
+  content: "";
   left: 50%;
   position: absolute;
   filter: blur(45px);
@@ -232,13 +232,12 @@
   }
 }
 
-
 .docBody {
   width: 100%;
+  max-width: 750px;
 }
 
 .heading {
-
 }
 
 .aboutMe {
@@ -246,11 +245,9 @@
 }
 
 .condition {
-
 }
 
 .solution {
-
 }
 
 .conclusion {
@@ -302,6 +299,7 @@
   justify-content: space-around;
   margin-top: -20px;
   padding: 0;
+  max-width: 750px;
 }
 
 .fioChild {
@@ -312,4 +310,5 @@
 
 .digits {
   margin: 0;
+  max-width: 750px;
 }
